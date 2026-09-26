@@ -19,7 +19,7 @@ export const initialServices: Service[] = ([
   ['Project Planning','Technical project planning, coordination and execution support.','07'],
   ['Quality & Compliance','Technical quality assessment and documentation support.','08'],
 ] as [string,string,string][]).map(([title,description,code]) => ({ id: code, title, description, code, status: 'Active' }));
-export const initialProjects: Project[] = [
+export const initialProjects: Project[] = ([
   ['modern-residential-tower','Modern Residential Tower','Kolhapur, Maharashtra','Aluform','Structural and aluminium formwork consultancy for a contemporary residential landmark.',heroImage],
   ['commercial-complex','Commercial Complex','Pune, Maharashtra','Engineering','Engineering consultancy supporting efficient commercial development.',buildingImage],
   ['high-rise-development','High-Rise Residential Development','Maharashtra','Analysis','Detailed technical analysis for a high-rise residential structure.',siteImage],
