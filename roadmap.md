@@ -1,0 +1,3 @@
+- [ ] Build responsive public portfolio pages and interactive project/gallery/testimonial/contact demo.
+- [ ] Build session-only admin login and content management pages with shared mock state.
+- [ ] Verify key public/admin flows and responsive layout.
